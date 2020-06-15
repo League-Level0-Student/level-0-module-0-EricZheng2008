@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size (100,200);
+  size (400,600);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -12,7 +12,10 @@
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
 //    The ellipse command looks like this:      
- ellipse(250,250, 100,100);
+ 
+//ellipse(250,250, 100,100);
+ellipse(100,100,50,50);
+ellipse(60,70,25,25);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
@@ -21,8 +24,13 @@
 // 4. Now add a rect command to draw a rectangle.
 
 //    The rect command looks like this:       
-rect(250,250, 100,100);
-
+fill(#792828);
+rect(250,100,100 ,50);
+triangle(250,250,100,200,100,500);
+triangle(250,100,50,100,50,300);
+arc(200,20,200, 100, 50,25);
+rect(250,100,50,150);
+backround(#792828);
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
 //    If the width is the same as the height, it draws a square.
@@ -38,7 +46,7 @@ rect(250,250, 100,100);
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
 fill(#FFA850);
-
+rect(200,100,100 ,50);
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
 //    BEFORE you draw the shape.
