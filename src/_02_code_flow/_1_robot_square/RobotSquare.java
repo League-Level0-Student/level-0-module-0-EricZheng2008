@@ -26,16 +26,19 @@ public class RobotSquare {
 
         // DRAW.  Draw a line
     	//		Use the     rob.move(); command
-    	rob.move(200);
 
 
 		// TURN.  Turn 90 degrees
     	//      Use the     rob.turn();  command
-    	rob.turn(360);
 
 
         // LOOP.  Now put the DRAW and TURN code into a for loop to repeat 4 times.
 		//        Did your Robot draw a square?
+    	for (int i = 0; i < 4; i++) {
+    		rob.move(200);
+    		rob.turn(90);
+			
+		}
 
 
     }
